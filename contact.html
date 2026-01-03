@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez TAAJI CONSULTING à Kinshasa">
+    <title>Contact - TAAJI CONSULTING</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/Taji-logo-removebg-preview.png" alt="TAAJI CONSULTING Logo" class="logo-img">
+                        <span class="logo-text">TAAJI CONSULTING</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html">Conseil & Intégration</a></li>
+                    <li><a href="solutions.html">Solutions & Équipements</a></li>
+                    <li><a href="recrutement.html">Recrutement & Talents</a></li>
+                    <li><a href="partenariats.html">Partenariats</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contactez-nous</h1>
+                <p>Nous sommes à votre écoute pour répondre à tous vos besoins technologiques</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <!-- Contact Info -->
+                    <div class="contact-info-container">
+                        <h2>Nos Coordonnées</h2>
+                        <div class="contact-info-items">
+                            <div class="contact-info-item">
+                                <div class="contact-icon">📍</div>
+                                <div>
+                                    <h3>Adresse</h3>
+                                    <p>Kinshasa<br>République Démocratique du Congo</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-icon">📞</div>
+                                <div>
+                                    <h3>Téléphone</h3>
+                                    <p>+243 XXX XXX XXX</p>
+                                    <p class="contact-note"><small>Lundi - Vendredi: 8h00 - 17h00</small></p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-icon">📧</div>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:contact@taajiconsulting.cd">contact@taajiconsulting.cd</a></p>
+                                    <p class="contact-note"><small>Réponse sous 24h ouvrées</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2>Envoyez-nous un message</h2>
+                        <p class="form-description">Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">Prénom *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Nom *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Téléphone</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Entreprise</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Service concerné</label>
+                                <select id="service" name="service">
+                                    <option value="">-- Sélectionnez un service --</option>
+                                    <option value="conseil">Conseil & Intégration IT</option>
+                                    <option value="solutions">Solutions & Équipements</option>
+                                    <option value="recrutement">Recrutement & Talents</option>
+                                    <option value="partenariats">Partenariats Internationaux</option>
+                                    <option value="autre">Autre demande</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Sujet *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="consent" name="consent" required>
+                                    <span>J'accepte que mes données soient utilisées pour me recontacter *</span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large">Envoyer le message</button>
+                        </form>
+
+                        <div id="formMessage" class="form-message" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Notre Localisation</h2>
+                <p class="map-description">TAAJI CONSULTING - Kinshasa, République Démocratique du Congo</p>
+                <div class="map-container">
+                    <!-- Google Maps Embed - À personnaliser avec votre adresse exacte -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127363.33429098082!2d15.226400784790039!3d-4.325000049999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33f8b9a7423b%3A0x3a5edc0dc3b1e68e!2sKinshasa%2C%20Democratic%20Republic%20of%20the%20Congo!5e0!3m2!1sen!2s!4v1704196800000!5m2!1sen!2s" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <p class="map-note"><em>Note : Contactez-nous pour obtenir l'adresse exacte de nos bureaux</em></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TAAJI CONSULTING</h3>
+                    <p>Société à Responsabilité Limitée (Sarl) - Votre partenaire stratégique pour la transformation numérique en RDC et à l'international.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Nos Services</h3>
+                    <ul>
+                        <li><a href="services.html">Conseil & Intégration</a></li>
+                        <li><a href="solutions.html">Solutions & Équipements</a></li>
+                        <li><a href="recrutement.html">Recrutement & Talents</a></li>
+                        <li><a href="partenariats.html">Partenariats</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <!-- <li><a href="mentions-legales.html">Mentions Légales</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>📧 contact@taajiconsulting.cd</li>
+                        <li>📞 +243 XXX XXX XXX</li>
+                        <li>📍 Kinshasa, RD Congo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TAAJI CONSULTING Sarl. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
