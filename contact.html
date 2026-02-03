@@ -83,7 +83,7 @@
                         <h2>Envoyez-nous un message</h2>
                         <p class="form-description">Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
                         
-                        <form id="contactForm" class="contact-form">
+                        <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="firstName">Prénom *</label>
@@ -139,6 +139,10 @@
                                     <span>J'accepte que mes données soient utilisées pour me recontacter *</span>
                                 </label>
                             </div>
+
+                            <input type="hidden" name="_subject" value="Nouveau message de contact TAAJI CONSULTING">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
                             <button type="submit" class="btn btn-primary btn-large">Envoyer le message</button>
                         </form>

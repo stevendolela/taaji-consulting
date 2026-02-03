@@ -72,14 +72,32 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Simulation d'envoi (dans un vrai site, vous enverriez les données à un serveur)
-            console.log('Données du formulaire:', formData);
+            // Envoyer les données à Formspree
+            const form = e.target;
+            const formDataToSend = new FormData(form);
             
-            // Afficher le message de succès
-            showFormMessage('Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.', 'success');
+            // Afficher un message de chargement
+            showFormMessage('Envoi en cours...', 'info');
             
-            // Réinitialiser le formulaire
-            contactForm.reset();
+            fetch(form.action, {
+                method: 'POST',
+                body: formDataToSend,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    showFormMessage('Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.', 'success');
+                    contactForm.reset();
+                } else {
+                    showFormMessage('Une erreur est survenue. Veuillez réessayer.', 'error');
+                }
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+                showFormMessage('Une erreur est survenue. Veuillez réessayer.', 'error');
+            });
             
             // Masquer le message après 5 secondes
             setTimeout(() => {
@@ -99,6 +117,96 @@ document.addEventListener('DOMContentLoaded', function() {
             // Scroll vers le message
             formMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
+    }
+    
+    // ========================================
+    // FORMULAIRE DE DEVIS
+    // ========================================
+    
+    const quoteForm = document.getElementById('quoteForm');
+    
+    if (quoteForm) {
+        quoteForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Récupération des données du formulaire
+            const formData = new FormData(quoteForm);
+            
+            // Validation des champs obligatoires
+            const companyName = formData.get('companyName');
+            const contactName = formData.get('contactName');
+            const email = formData.get('email');
+            const phone = formData.get('phone');
+            const category = formData.get('category');
+            const details = formData.get('details');
+            const consent = quoteForm.querySelector('input[name="consent"]').checked;
+            
+            if (!companyName || !contactName || !email || !phone || !category || !details) {
+                showQuoteFormMessage('Veuillez remplir tous les champs obligatoires.', 'error');
+                return;
+            }
+            
+            // Validation de l'email
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showQuoteFormMessage('Veuillez entrer une adresse email valide.', 'error');
+                return;
+            }
+            
+            // Validation du consentement
+            if (!consent) {
+                showQuoteFormMessage('Vous devez accepter d\'être contacté par TAAJI CONSULTING.', 'error');
+                return;
+            }
+            
+            // Afficher un message de chargement
+            showQuoteFormMessage('Envoi en cours...', 'info');
+            
+            // Envoyer les données à Formspree
+            fetch(quoteForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    showQuoteFormMessage('Merci pour votre demande de devis ! Nous vous répondrons dans les 24-48h.', 'success');
+                    quoteForm.reset();
+                } else {
+                    showQuoteFormMessage('Une erreur est survenue. Veuillez réessayer.', 'error');
+                }
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+                showQuoteFormMessage('Une erreur est survenue. Veuillez réessayer.', 'error');
+            });
+            
+            // Masquer le message après 5 secondes
+            setTimeout(() => {
+                const quoteMessage = document.getElementById('quoteFormMessage');
+                if (quoteMessage) {
+                    quoteMessage.style.display = 'none';
+                }
+            }, 5000);
+        });
+    }
+    
+    function showQuoteFormMessage(message, type) {
+        let quoteMessage = document.getElementById('quoteFormMessage');
+        if (!quoteMessage) {
+            quoteMessage = document.createElement('div');
+            quoteMessage.id = 'quoteFormMessage';
+            quoteForm.parentNode.insertBefore(quoteMessage, quoteForm);
+        }
+        
+        quoteMessage.textContent = message;
+        quoteMessage.className = `form-message ${type}`;
+        quoteMessage.style.display = 'block';
+        
+        // Scroll vers le message
+        quoteMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
     
     // ========================================
