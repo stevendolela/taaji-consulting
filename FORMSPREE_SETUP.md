@@ -35,7 +35,7 @@ Ce guide explique comment configurer Formspree pour activer l'envoi des emails d
 <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
 
 <!-- Après (remplacez YOUR_FORM_ID par votre ID) -->
-<form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/xyz123abc">
+<form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/mrelnqqv">
 ```
 
 **Pour le formulaire de Devis (solutions.html) :**
@@ -44,7 +44,7 @@ Ce guide explique comment configurer Formspree pour activer l'envoi des emails d
 <form id="quoteForm" class="quote-form-modern" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
 
 <!-- Après (remplacez YOUR_FORM_ID par votre ID) -->
-<form id="quoteForm" class="quote-form-modern" method="POST" action="https://formspree.io/f/abc456xyz">
+<form id="quoteForm" class="quote-form-modern" method="POST" action="https://formspree.io/f/mnjzedde">
 ```
 
 ### 5. Vérifier que ça Marche
