@@ -1,12 +1,12 @@
-# TAAJI CONSULTING - Site Web Institutionnel
+# Taaji Consulting - Site Web Institutionnel
 
-![TAAJI CONSULTING Logo](images/Taji-logo-removebg-preview.png)
+![Taaji Consulting Logo](images/Taji-logo-removebg-preview.png)
 
-Site web officiel de **TAAJI CONSULTING** - Votre partenaire stratégique pour la transformation numérique en RDC et à l'international.
+Site web officiel de **Taaji Consulting** - Votre partenaire stratégique pour la transformation numérique en RDC et à l'international.
 
 ## � À propos
 
-TAAJI CONSULTING est une Société à Responsabilité Limitée (Sarl) spécialisée dans les technologies de l'information, basée à **Kinshasa, République Démocratique du Congo**.
+Taaji Consulting est une Société à Responsabilité Limitée (Sarl) spécialisée dans les technologies de l'information, basée à **Kinshasa, République Démocratique du Congo**.
 
 ### Nos Services
 
@@ -25,7 +25,7 @@ TAAJI CONSULTING est une Société à Responsabilité Limitée (Sarl) spécialis
 ## � Structure du projet
 
 ```
-Taajii Consulting/
+Taaji Consulting/
 ├── index.html              # Page d'accueil avec preloader
 ├── about.html              # À propos avec message CEO
 ├── services.html           # Conseil & Intégration IT
@@ -116,7 +116,7 @@ Le site utilise un design moderne avec :
 - Validation en temps réel des champs
 - Intégration Google Maps
 
-## 🏢 À Propos de TAAJI CONSULTING
+## 🏢 À Propos de Taaji Consulting
 
 **Forme juridique :** Société à Responsabilité Limitée (Sarl)  
 **Siège social :** Kinshasa, République Démocratique du Congo  
@@ -145,7 +145,7 @@ Le site utilise un design moderne avec :
 
 1. **Cloner ou télécharger le projet**
    ```bash
-   cd "Taajii Consulting"
+   cd "Taaji Consulting"
    ```
 
 2. **Lancer un serveur local**
@@ -179,7 +179,7 @@ Le site utilise un design moderne avec :
    ```bash
    git init
    git add .
-   git commit -m "Initial commit - TAAJI CONSULTING website"
+   git commit -m "Initial commit - Taaji Consulting website"
    git branch -M main
    git remote add origin https://github.com/votre-username/taajii-consulting.git
    git push -u origin main
@@ -327,7 +327,7 @@ Créez `send-email.php` sur votre serveur et mettez à jour l'action du formulai
 
 ## 📞 Contact & Support
 
-**TAAJI CONSULTING**  
+**Taaji Consulting**
 Kinshasa, République Démocratique du Congo
 
 - **Email** : contact@taajii-consulting.com
@@ -339,9 +339,9 @@ Pour toute question technique sur le site, consultez la documentation ou contact
 
 ## 📄 Licence
 
-© 2025 TAAJI CONSULTING. Tous droits réservés.
+© 2025 Taaji Consulting. Tous droits réservés.
 
-Ce site est la propriété exclusive de TAAJI CONSULTING. Toute reproduction, distribution ou modification non autorisée est strictement interdite.
+Ce site est la propriété exclusive de Taaji Consulting. Toute reproduction, distribution ou modification non autorisée est strictement interdite.
 
 ---
 

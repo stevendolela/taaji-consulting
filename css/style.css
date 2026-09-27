@@ -1,5 +1,5 @@
 /* ========================================
-   TAAJI CONSULTING - MODERN IT STYLESHEET
+   Taaji Consulting - MODERN IT STYLESHEET
    ======================================== */
 
 /* ========================================
@@ -418,6 +418,9 @@ header {
     flex-direction: column;
     gap: 4px;
     cursor: pointer;
+    padding: 0.5rem;
+    border: 0;
+    background: transparent;
 }
 
 .mobile-menu-toggle span {
@@ -2498,6 +2501,31 @@ header {
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
+
+/* Navigation compacte sur tablette pour préserver l'accès à toutes les rubriques. */
+@media (max-width: 1050px) {
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: var(--bg-white);
+        flex-direction: column;
+        padding: 2rem;
+        box-shadow: var(--shadow-lg);
+        transition: var(--transition-normal);
+        gap: 1rem;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .mobile-menu-toggle {
+        display: flex;
+    }
+}
 
 @media (max-width: 768px) {
     .container {

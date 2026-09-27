@@ -1,4 +1,4 @@
-# 🚀 Quick Start - TAAJI CONSULTING Website
+# 🚀 Quick Start - Taaji Consulting Website
 
 Démarrage rapide en 5 minutes chrono !
 
@@ -14,7 +14,7 @@ Démarrage rapide en 5 minutes chrono !
 
 **Python (déjà installé sur macOS) :**
 ```bash
-cd "/Users/steve/Taajii Consulting"
+cd "/Users/steve/Taaji Consulting"
 python -m http.server 8000
 ```
 Puis ouvrez : http://localhost:8000
