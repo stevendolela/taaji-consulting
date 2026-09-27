@@ -418,6 +418,9 @@ header {
     flex-direction: column;
     gap: 4px;
     cursor: pointer;
+    padding: 0.5rem;
+    border: 0;
+    background: transparent;
 }
 
 .mobile-menu-toggle span {

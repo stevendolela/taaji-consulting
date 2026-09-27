@@ -13,9 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', function() {
-            mobileMenuToggle.classList.toggle('active');
-            navLinks.classList.toggle('active');
-            document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+            const isOpen = mobileMenuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active', isOpen);
+            mobileMenuToggle.setAttribute('aria-expanded', String(isOpen));
+            document.body.style.overflow = isOpen ? 'hidden' : '';
         });
         
         // Fermer le menu lors du clic sur un lien
@@ -24,8 +25,19 @@ document.addEventListener('DOMContentLoaded', function() {
             item.addEventListener('click', function() {
                 mobileMenuToggle.classList.remove('active');
                 navLinks.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
                 document.body.style.overflow = '';
             });
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+                mobileMenuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+                mobileMenuToggle.focus();
+            }
         });
     }
     
@@ -78,6 +90,11 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Afficher un message de chargement
             showFormMessage('Envoi en cours...', 'info');
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+            if (submitButton) {
+                submitButton.disabled = true;
+                submitButton.setAttribute('aria-busy', 'true');
+            }
             
             fetch(form.action, {
                 method: 'POST',
@@ -97,6 +114,12 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => {
                 console.error('Erreur:', error);
                 showFormMessage('Une erreur est survenue. Veuillez réessayer.', 'error');
+            })
+            .finally(() => {
+                if (submitButton) {
+                    submitButton.disabled = false;
+                    submitButton.removeAttribute('aria-busy');
+                }
             });
             
             // Masquer le message après 5 secondes
