@@ -1,4 +1,4 @@
-# Changelog - TAAJI CONSULTING Website
+# Changelog - Taaji Consulting Website
 
 Toutes les modifications notables de ce projet seront documentées dans ce fichier.
 
@@ -79,7 +79,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 - `.gitignore` - Exclusions système (macOS, Windows, IDE, logs)
 - `README.md` - Documentation complète du projet
-- `LICENSE` - Licence propriétaire TAAJI CONSULTING
+- `LICENSE` - Licence propriétaire Taaji Consulting
 - `CONTRIBUTING.md` - Guide de contribution pour l'équipe
 - `CHANGELOG.md` - Suivi des versions et modifications
 
@@ -113,7 +113,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Débordement carte Google Maps sur footer (height fixe → padding)
 - Badges avec icônes incompatibles supprimés
 - Espacement sections optimisé pour meilleure ergonomie
-- Correction branding "TAJI" → "TAAJI" sur tout le site
+- Correction branding "TAJI" → "Taaji" sur tout le site
 
 ### ⚙️ Modifié
 
@@ -169,5 +169,5 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 
-**Note** : Ce changelog est maintenu par l'équipe de développement de TAAJI CONSULTING.
+**Note** : Ce changelog est maintenu par l'équipe de développement de Taaji Consulting.
 Pour toute question, contactez dev@taajii-consulting.com

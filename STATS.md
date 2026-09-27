@@ -1,4 +1,4 @@
-# 📊 Statistiques du Projet - TAAJI CONSULTING
+# 📊 Statistiques du Projet - Taaji Consulting
 
 ## 📈 Métriques Globales
 
@@ -271,7 +271,7 @@ Tailles     : 1rem base, échelle modulaire 1.5x
 
 ---
 
-**Projet maintenu par l'équipe TAAJI CONSULTING**
+**Projet maintenu par l'équipe Taaji Consulting**
 
 Dernière mise à jour : Janvier 2025
 Version : 1.0.0

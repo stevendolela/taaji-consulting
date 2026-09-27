@@ -1,8 +1,8 @@
-# TAAJI CONSULTING - À Faire
+# Taaji Consulting - À Faire
 
 ## ✅ Complété (Janvier 2026)
 
-- [x] Refonte complète du site pour TAAJI CONSULTING
+- [x] Refonte complète du site pour Taaji Consulting
 - [x] Page d'accueil avec les 3 pôles d'activité
 - [x] Page Conseil & Intégration IT (transformation digitale, cybersécurité, projets IT)
 - [x] Page Solutions & Équipements (catalogue matériel + formulaire devis)

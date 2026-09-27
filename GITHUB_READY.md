@@ -1,4 +1,4 @@
-# 📦 Préparation GitHub - TAAJI CONSULTING
+# 📦 Préparation GitHub - Taaji Consulting
 
 ✅ **Dossier GitHub prêt pour le déploiement !**
 
@@ -14,7 +14,7 @@
 
 ### Fichiers de Configuration
 - ✅ `.gitignore` - Exclusions Git (macOS, Windows, IDE, backups, PDF)
-- ✅ `LICENSE` - Licence propriétaire TAAJI CONSULTING (1.4 KB)
+- ✅ `LICENSE` - Licence propriétaire Taaji Consulting (1.4 KB)
 
 ### Fichiers Projet (Existants)
 - ✅ 7 pages HTML (index, services, solutions, recrutement, partenariats, about, contact)
@@ -29,10 +29,10 @@
 
 ### 1. Initialiser Git
 ```bash
-cd "/Users/steve/Taajii Consulting"
+cd "/Users/steve/Taaji Consulting"
 git init
 git add .
-git commit -m "🎉 Initial commit - TAAJI CONSULTING Website v1.0
+git commit -m "🎉 Initial commit - Taaji Consulting Website v1.0
 
 - Site web institutionnel complet avec 7 pages HTML
 - Design IT moderne avec palette professionnelle
@@ -51,7 +51,7 @@ git commit -m "🎉 Initial commit - TAAJI CONSULTING Website v1.0
 **Option A : Via Interface Web**
 1. Allez sur https://github.com/new
 2. Repository name : `taajii-consulting-website`
-3. Description : "Site web officiel de TAAJI CONSULTING - Transformation numérique en RDC"
+3. Description : "Site web officiel de Taaji Consulting - Transformation numérique en RDC"
 4. Visibilité : **Private** (recommandé) ou Public
 5. Ne cochez aucune option (README, .gitignore, license déjà présents)
 6. Cliquez sur **Create repository**
@@ -230,7 +230,7 @@ Les fichiers suivants ne seront **PAS** uploadés sur GitHub :
 
 ## 🎉 Félicitations !
 
-Le site web de TAAJI CONSULTING est prêt pour GitHub ! 🚀
+Le site web de Taaji Consulting est prêt pour GitHub ! 🚀
 
 ### Résumé
 - ✅ 7 pages HTML modernes et ergonomiques
@@ -259,6 +259,6 @@ Des questions ? Consultez :
 
 ---
 
-**Développé avec passion pour TAAJI CONSULTING** 💙
+**Développé avec passion pour Taaji Consulting** 💙
 
 *Transforming Africa's Digital Future*

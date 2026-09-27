@@ -1,6 +1,6 @@
-# Guide de Déploiement - TAAJI CONSULTING
+# Guide de Déploiement - Taaji Consulting
 
-Ce guide vous aide à déployer le site web de TAAJI CONSULTING sur différentes plateformes.
+Ce guide vous aide à déployer le site web de Taaji Consulting sur différentes plateformes.
 
 ## 🚀 Déploiement Rapide
 
@@ -10,7 +10,7 @@ Ce guide vous aide à déployer le site web de TAAJI CONSULTING sur différentes
 
 ```bash
 # Dans le dossier du projet
-cd "/Users/steve/Taajii Consulting"
+cd "/Users/steve/Taaji Consulting"
 
 # Initialiser le repository
 git init
@@ -19,7 +19,7 @@ git init
 git add .
 
 # Premier commit
-git commit -m "🎉 Initial commit - TAAJI CONSULTING Website v1.0"
+git commit -m "🎉 Initial commit - Taaji Consulting Website v1.0"
 ```
 
 #### Étape 2 : Créer le Repository GitHub
@@ -27,7 +27,7 @@ git commit -m "🎉 Initial commit - TAAJI CONSULTING Website v1.0"
 1. Allez sur [github.com](https://github.com) et connectez-vous
 2. Cliquez sur **New repository**
 3. Nom : `taajii-consulting-website` (ou autre)
-4. Description : "Site web officiel de TAAJI CONSULTING"
+4. Description : "Site web officiel de Taaji Consulting"
 5. **Important** : Laissez en **Private** (site propriétaire)
 6. Ne cochez aucune option (pas de README, .gitignore, etc.)
 7. Cliquez sur **Create repository**
@@ -74,7 +74,7 @@ Si vous avez un nom de domaine (ex: www.taajii-consulting.com) :
 
 1. Allez sur [netlify.com](https://www.netlify.com/)
 2. Créez un compte (gratuit)
-3. Glissez-déposez le dossier `Taajii Consulting` sur [app.netlify.com/drop](https://app.netlify.com/drop)
+3. Glissez-déposez le dossier `Taaji Consulting` sur [app.netlify.com/drop](https://app.netlify.com/drop)
 4. Site déployé instantanément ! 🎉
 5. Vous obtenez une URL : `random-name-123.netlify.app`
 
@@ -120,7 +120,7 @@ Pour activer l'envoi de formulaires Netlify :
 npm install -g vercel
 
 # Dans le dossier du projet
-cd "/Users/steve/Taajii Consulting"
+cd "/Users/steve/Taaji Consulting"
 
 # Déployer
 vercel
@@ -232,7 +232,7 @@ ErrorDocument 404 /index.html
 Si vous utilisez votre propre clé API :
 
 1. Allez sur [console.cloud.google.com](https://console.cloud.google.com/)
-2. Créez un projet "TAAJII Website"
+2. Créez un projet "Taaji Website"
 3. Activez "Maps JavaScript API"
 4. Créez une clé API
 5. Dans `contact.html`, remplacez :
@@ -247,7 +247,7 @@ Si vous utilisez votre propre clé API :
 ### Google Analytics
 
 1. Créez un compte sur [analytics.google.com](https://analytics.google.com/)
-2. Créez une propriété "TAAJII CONSULTING"
+2. Créez une propriété "Taaji Consulting"
 3. Récupérez l'ID de mesure (G-XXXXXXXXXX)
 4. Ajoutez avant `</head>` dans tous les fichiers HTML :
 
@@ -343,4 +343,4 @@ En cas de problème de déploiement :
 
 **Site déployé avec succès ! 🚀**
 
-TAAJI CONSULTING - Transforming Africa's Digital Future
+Taaji Consulting - Transforming Africa's Digital Future

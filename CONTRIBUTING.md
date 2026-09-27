@@ -1,14 +1,14 @@
-# Guide de Contribution - TAAJI CONSULTING
+# Guide de Contribution - Taaji Consulting
 
-Merci de votre intérêt pour le site web de TAAJI CONSULTING !
+Merci de votre intérêt pour le site web de Taaji Consulting !
 
 ## 🔒 Propriété et Confidentialité
 
-Ce projet est la **propriété exclusive de TAAJI CONSULTING**. Toute contribution doit respecter les politiques internes de l'entreprise.
+Ce projet est la **propriété exclusive de Taaji Consulting**. Toute contribution doit respecter les politiques internes de l'entreprise.
 
 ## 👥 Contributeurs Autorisés
 
-Seuls les membres de l'équipe TAAJI CONSULTING ou les partenaires sous contrat peuvent contribuer à ce projet.
+Seuls les membres de l'équipe Taaji Consulting ou les partenaires sous contrat peuvent contribuer à ce projet.
 
 ## 📋 Processus de Contribution
 
@@ -193,4 +193,4 @@ Pour toute question sur les contributions :
 
 ---
 
-**Merci de contribuer au succès de TAAJI CONSULTING ! 🚀**
+**Merci de contribuer au succès de Taaji Consulting ! 🚀**

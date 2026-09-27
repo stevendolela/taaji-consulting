@@ -1,5 +1,5 @@
 // ========================================
-// TAAJII CONSULTING - JAVASCRIPT
+// Taaji Consulting - JAVASCRIPT
 // ========================================
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Validation du consentement
             if (!consent) {
-                showQuoteFormMessage('Vous devez accepter d\'être contacté par TAAJI CONSULTING.', 'error');
+                showQuoteFormMessage('Vous devez accepter d\'être contacté par Taaji Consulting.', 'error');
                 return;
             }
             
@@ -393,7 +393,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // CHARGEMENT TERMINÉ
     // ========================================
     
-    console.log('✅ Taajii Consulting - Site initialisé avec succès');
+    console.log('✅ Taaji Consulting - Site initialisé avec succès');
 });
 
 // ========================================

@@ -1,4 +1,4 @@
-# Configuration Formspree - TAAJI CONSULTING
+# Configuration Formspree - Taaji Consulting
 
 ## 🚀 Setup Formspree pour les Formulaires
 
@@ -105,7 +105,7 @@ Puis configurez reCAPTCHA dans les settings Formspree.
 - **Plan Pro** : À partir de $25/mois pour 1000 soumissions
 - **Plan Enterprise** : Illimité
 
-Pour TAAJI CONSULTING, le plan gratuit devrait suffire initialement. Vous pouvez upgrader plus tard si nécessaire.
+Pour Taaji Consulting, le plan gratuit devrait suffire initialement. Vous pouvez upgrader plus tard si nécessaire.
 
 ---
 
